@@ -1,0 +1,110 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: linear-gradient( to right top,  #ff4988 , #ffc781,#fffefc );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    width: 100%;
+    max-width: 50rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5.5rem 3.5rem;
+}
+.signup-header{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.signup-title{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.signup-link{
+    color: #00aefd;
+    font-size: inherit;
+    text-decoration: none;
+}
+.form-group{
+    margin-bottom: 1.6rem;
+}
+.form-group-two{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: 1px solid #eee;
+    background-color: #eee;
+    transition: 0.25s linear;
+    width: 100%;
+
+
+}
+.form-control:focus{
+    border-color:#eee ;
+    background: white;
+}
+
+.form-group-two > .form-control{
+    width: calc(50% - 5px);
+
+}
+.form-group-two > .form-control:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-group-two > .form-control:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-control::-webkit-input-placeholder{
+    color: #ccc;
+    font-style: italic;
+}
+
+.form-submit{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    background-color: #00aefd;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    font-size: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-submit-text{
+    margin: 0 auto;
+}
+.form-tos{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #999;
+}
